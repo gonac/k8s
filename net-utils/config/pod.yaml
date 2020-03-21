@@ -1,0 +1,9 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: netutils
+spec:
+  containers:
+    - name: netutils-container
+      image: gonac/netutils
+  restartPolicy: Never
