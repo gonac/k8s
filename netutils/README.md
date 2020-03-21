@@ -12,7 +12,6 @@ netutils contains a set of useful networking utilities.
 - net-tools (ifconfig)
 - tcpdump
 - tcptraceroute
-- wireshark
 - iperf
 - nmap
 

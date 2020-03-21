@@ -25,7 +25,6 @@ RUN apt-get update && \
     vim \
     wget \
     iproute \
-    wireshark \
     iperf \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
