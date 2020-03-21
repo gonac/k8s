@@ -27,6 +27,3 @@ RUN apt-get update && \
     iproute \
     iperf \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
-
-COPY entrypoint.bash ./
-ENTRYPOINT ["/bin/bash", "./entrypoint.bash"]
