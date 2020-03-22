@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Some important production-grade Kubernetes Ops Services
 
 ## Monitoring and Alerting
@@ -33,3 +34,6 @@
 
 1. [MongoDB](https://github.com/Thakurvaibhav/k8s/tree/master/databases/mongodb#prodcution-grade-mongo-db-set-up) 
 2. [Elasticsearch](https://github.com/Thakurvaibhav/k8s/tree/master/databases/elasticsearch#prodcution-grade-elastic-search-db-set-up) 
+=======
+# k8s
+>>>>>>> d59cc56cc480fc54ae56dc02feae17bdff1d03ec

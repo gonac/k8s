@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: netutils
+spec:
+  containers:
+    - name: netutils-container
+      image: gonac/netutils
+      command: ['while :; do; sleep 1s done']
+  restartPolicy: Never
